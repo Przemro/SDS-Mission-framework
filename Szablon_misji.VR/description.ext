@@ -287,7 +287,7 @@ class Params
 	{
 		title = "BLUFOR (players)";
 		values[] = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19};
-		texts[] = {1. NATO, 2. BAF (MTP) | MD, 3. BAF (WD) | MD, 4. BAF (DS) | MD, 5. CDF (WD) | MD, 6. CDF (WD) | U, 7. DK (WD) | CW, 8. DK (WT) | CW, 9. US ARMY (WD) | CW | VIETNAM, 10. US ARMY (WD) | CW, 11. US ARMY (DS) | CW, 12. US ARMY (UCP) | MD, 13. US ARMY (MTP) | MD, 14. USMC (WD) | MD, 15. USMC (DS) | MD, 16. DE (WD) | CW, 17. DE (WT) | CW, 18. DE (WD) | MD, 19. FIA (WD) | U};
+		texts[] = {1. NATO, 2. BAF (MTP) | MD, 3. BAF (WD) | MD, 4. BAF (DS) | MD, 5. CDF (WD) | MD, 6. CDF (WD) | U, 7. PSZ (WD) | MD , 8. PSZ (DS) | MD, 9. US ARMY (WD) | CW | VIETNAM, 10. US ARMY (WD) | CW, 11. US ARMY (DS) | CW, 12. US ARMY (UCP) | MD, 13. US ARMY (MTP) | MD, 14. USMC (WD) | MD, 15. USMC (DS) | MD, 16. DE (WD) | CW, 17. DE (WT) | CW, 18. DE (WD) | MD, 19. FIA (WD) | U};
 		default = 1;
 		code = "f_param_player_faction_Blufor = %1";
 	};

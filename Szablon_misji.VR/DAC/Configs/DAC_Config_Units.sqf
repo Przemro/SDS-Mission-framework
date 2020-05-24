@@ -44,8 +44,6 @@ _TypNumber = _this select 0;_TempArray = [];
   21 - SOCOM Marine
   22 - USMC MARPAT DESERT
 	23 - USMC MARPAT WOODLAND
-	24 - GM GERMANY WOODLAND 
-	25 - GM GERMANY WINTER
 //////////OPFOR///////////
 	26 - CHERNARUS CIVILIAN MILITIA
 	27 - COLD WAR USSR LATE
@@ -54,14 +52,8 @@ _TypNumber = _this select 0;_TempArray = [];
 	30 - TAKISTAN NATIONAL ARMY
 	31 - TAKISTAN MILITIA
 	32 - CHERNARUSSIAN MOVMENT OF THE RED STAR /ChDKZ/
-	33 - LIVONIA EAST GERMAN STR
-	34 - LIVONIA EAST GERMAN WINTER
-	35 - LIVONIAN ARMY CAMO02	
-	36 - LIVONIAN ARMY CAMO01
-  37 - LIVONIAN ARMY WINTER
-  38 - LIVONIAN ARMY EARLY (BLACK CAMO)
-  39 - POLISH ARMY CAMO
-  40 - POLISH ARMY WINTER
+  39 - POLISH ARMY CAMO - not used
+  40 - POLISH ARMY WINTER - not used
   41 - RUSSIAN MOTOR RIFLE TROOPS (MSV)
   42 - RUSSIAN VDV WOODLAND
   43 - RUSSIAN VDV DESERT
@@ -74,8 +66,6 @@ _TypNumber = _this select 0;_TempArray = [];
   49 - TAKISTAN NATIONAL POLICE
   50 - TAKISTAN TRIBAL FIGHTERS
   51 - UNITED NATIONS PEACEKEEPERS
-  52 - ALTIS ARMED FORCES CAMO01
-  53 - ALTIS ARMED FORCES CAMO02
   54 - ASIAN GUERILLA
   55 - CHERNARUS DEFENCE FORCES
   56 - CHERNARUSSIAN NATIONALIST MILITIA CAMO01
@@ -363,24 +353,24 @@ switch (_TypNumber) do
 
 //-------------------------------------------------------------------------------------------------
 
-// GM GERMANY WOODLAND (BLUFOR)
+// PSZ POLISH ARMY WOODLAND (BLUFOR)
   case 24:
   {
-    _Unit_Pool_S = ["gm_ge_army_crew_mp2a1_80_oli","len_bw_pilot_mp2a1_80_oli_aa","gm_ge_army_squadleader_g3a3_p2a1_80_ols","gm_ge_army_medic_g3a3_80_ols","gm_ge_army_marksman_g3a3_80_ols","gm_ge_army_machinegunner_mg3_80_ols","gm_ge_army_antitank_g3a3_pzf84_80_ols","gm_ge_army_grenadier_g3a3_80_ols","gm_ge_army_antitank_g3a3_pzf44_80_ols"];
-    _Unit_Pool_V = ["gm_ge_army_iltis_milan","gm_ge_army_u1300l_cargo","gm_ge_army_fuchsa0_reconnaissance","gm_ge_army_m113a1g_apc","gm_ge_army_m113a1g_apc_milan"];
-    _Unit_Pool_T = ["gm_ge_army_Leopard1a1","gm_ge_army_Leopard1a3","gm_ge_army_Leopard1a5","gm_ge_army_gepard1a1"];
-    _Unit_Pool_A = [];
+    _Unit_Pool_S = ["PSZ_PL_WDL20_Soldier_TankDriver","PSZ_PL_WDL20_Soldier_Pilot","PSZ_PL_WDL20_Soldier_RTO","PSZ_PL_WDL20_Soldier_Rifleman_LAT","PSZ_PL_WDL20_Soldier_Medic","PSZ_PL_WDL20_Soldier_UKM","PSZ_PL_WDL20_Soldier_Grenadier","PSZ_PL_WDL20_Soldier_AT_RPG7","PSZ_PL_WDL20_Soldier_AA","PSZ_PL_WDL20_Soldier_Marksman"];
+    _Unit_Pool_V = ["PSZ_PL_WDL20_Tumak2_WKM","PSZ_PL_WDL20_Zbik_M97","PSZ_PL_WDL20_Rosomak_M1M"];
+    _Unit_Pool_T = ["UK3CB_CW_SOV_O_EARLY_BMP1","UK3CB_CW_SOV_O_EARLY_T72A","UK3CB_CW_SOV_O_EARLY_ZsuTank"];
+    _Unit_Pool_A = ["PSZ_PL_WDL20_Mi17_1W_UB32","PSZ_PL_WDL20_Mi17_1W_PKT"];
   };
 
 //-------------------------------------------------------------------------------------------------
 
-// GM GERMANY WINTER (BLUFOR)
+// PSZ POLISH ARMY DESERT (BLUFOR)
   case 25:
   {
-    _Unit_Pool_S = ["gm_ge_army_crew_mp2a1_80_oli","len_bw_pilot_mp2a1_80_oli_aa","gm_ge_army_squadleader_g3a3_p2a1_parka_80_win","gm_ge_army_medic_g3a3_parka_80_win","gm_ge_army_marksman_g3a3_parka_80_win","gm_ge_army_machinegunner_mg3_parka_80_win","gm_ge_army_antitank_g3a3_pzf84_parka_80_win","gm_ge_army_grenadier_g3a3_parka_80_win","gm_ge_army_antitank_g3a3_pzf44_parka_80_win"];
-    _Unit_Pool_V = ["gm_ge_army_iltis_milan","gm_ge_army_u1300l_cargo","gm_ge_army_fuchsa0_reconnaissance","gm_ge_army_m113a1g_apc","gm_ge_army_m113a1g_apc_milan"];
-    _Unit_Pool_T = ["gm_ge_army_Leopard1a1","gm_ge_army_Leopard1a3","gm_ge_army_Leopard1a5","gm_ge_army_gepard1a1"];
-    _Unit_Pool_A = [];
+    _Unit_Pool_S = ["PSZ_PL_DES10_Soldier_Pilot","PSZ_PL_DES10_Soldier_TankCommander","PSZ_PL_DES10_Soldier_RTO","PSZ_PL_DES10_Soldier_Rifleman_LAT","PSZ_PL_DES10_Soldier_Rifleman","PSZ_PL_DES10_Soldier_Medic","PSZ_PL_DES10_Soldier_UKM","PSZ_PL_DES10_Soldier_Grenadier_Pallad","PSZ_PL_DES10_Soldier_AT_RPG7","PSZ_PL_DES10_Soldier_AA","PSZ_PL_DES10_Soldier_Marksman"];
+    _Unit_Pool_V = ["PSZ_PL_DES10_Tumak2_UKM","PSZ_PL_DES10_Tumak2_WKM","PSZ_PL_DES10_Zbik_M97","PSZ_PL_DES10_Zbik_M96","PSZ_PL_DES10_Rosomak_1"];
+    _Unit_Pool_T = ["UK3CB_CW_SOV_O_EARLY_BMP1","UK3CB_CW_SOV_O_EARLY_T72A","UK3CB_CW_SOV_O_EARLY_ZsuTank"];
+    _Unit_Pool_A = ["PSZ_PL_DES10_Mi17_1W_PKT","PSZ_PL_DES10_Mi17_1W_UB32"];
   };
 
 //-------------------------------------------------------------------------------------------------
@@ -468,10 +458,10 @@ switch (_TypNumber) do
 // LIVONIA EAST GERMAN STR (OPFOR)
 	case 33:
 	{
-    _Unit_Pool_S = ["gm_gc_army_crew_mpiaks74nk_80_blk","len_nva_pilot_mpiaks74nk_80_blu_aa","gm_gc_army_squadleader_mpiak74n_80_str","gm_gc_army_rifleman_mpiak74n_80_str","gm_gc_army_medic_mpiak74n_80_str","gm_gc_army_marksman_svd_80_str","gm_gc_army_machinegunner_pk_80_str","gm_gc_army_machinegunner_lmgrpk_80_str","gm_gc_army_antitank_mpiak74n_rpg7_80_str","gm_gc_army_antitank_assistant_mpiak74n_rpg7_80_str"];
-    _Unit_Pool_V = ["gm_gc_army_btr60pb","gm_gc_army_brdm2"];
-    _Unit_Pool_T = ["gm_gc_army_zsu234v1","gm_gc_army_bmp1sp2","gm_gc_army_pt76b","gm_gc_army_t55","gm_gc_army_t55am2b"];
-    _Unit_Pool_A = ["len_mi8amt_nva"];
+    _Unit_Pool_S = [];
+    _Unit_Pool_V = [];
+    _Unit_Pool_T = [];
+    _Unit_Pool_A = [];
   };
   
 //-------------------------------------------------------------------------------------------------
@@ -479,19 +469,19 @@ switch (_TypNumber) do
 // LIVONIA EAST GERMAN WINTER (OPFOR)
 	case 34:
 	{
-    _Unit_Pool_S = ["gm_gc_army_crew_mpiaks74nk_80_blk","len_nva_pilot_mpiaks74nk_80_blu_aa","gm_gc_army_squadleader_mpiak74n_80_win","gm_gc_army_rifleman_mpiak74n_80_win","gm_gc_army_medic_mpiak74n_80_win","gm_gc_army_marksman_svd_80_win","gm_gc_army_machinegunner_pk_80_win","gm_gc_army_machinegunner_lmgrpk_80_win","gm_gc_army_antitank_mpiak74n_rpg7_80_win","gm_gc_army_antitank_assistant_mpiak74n_rpg7_80_win"];
-    _Unit_Pool_V = ["gm_gc_army_btr60pb","gm_gc_army_brdm2"];
-    _Unit_Pool_T = ["gm_gc_army_zsu234v1","gm_gc_army_bmp1sp2","gm_gc_army_pt76b","gm_gc_army_t55","gm_gc_army_t55am2b"];
-    _Unit_Pool_A = ["len_mi8amt_nva"];
+    _Unit_Pool_S = [];
+    _Unit_Pool_V = [];
+    _Unit_Pool_T = [];
+    _Unit_Pool_A = [];
   };
   
 //-------------------------------------------------------------------------------------------------
 // LIVONIAN ARMY CAMO02 (OPFOR)
 	case 35:
 	{
-    _Unit_Pool_S = ["len_liv_army_crew_savz26_80_blk", "len_liv_af_pilot_80_01","len_liv_army_squadleader_akm_80_camo02","len_liv_army_rifleman_akm_80_camo02","len_liv_army_medic_akm_80_camo02","len_liv_army_marksman_svd_80_camo02","len_liv_army_machinegunner_pk_80_camo02","len_liv_army_machinegunner_lmgrpk_80_camo02","len_liv_army_antitank_akm_rpg7_80_camo02","len_liv_army_antitank_assistant_akm_rpg7_80_camo02"];
-    _Unit_Pool_V = ["len_liv_army_uaz_spg9_oli","len_liv_army_brdm2_cam","len_liv_army_btr60pa_cam","len_liv_army_ot64a_cam"];
-    _Unit_Pool_T = ["len_liv_army_zsu234v1_cam","len_liv_army_bmp1sp2_cam","len_liv_army_pt76b_cam","len_liv_army_t55a_cam","len_liv_army_t72bv_oli"];
+    _Unit_Pool_S = [];
+    _Unit_Pool_V = [];
+    _Unit_Pool_T = [];
     _Unit_Pool_A = [];
   };
   
@@ -500,9 +490,9 @@ switch (_TypNumber) do
 // LIVONIAN ARMY CAMO01 (OPFOR)
 	case 36:
 	{
-    _Unit_Pool_S = ["len_liv_army_crew_savz26_80_blk", "len_liv_af_pilot_80_01","len_liv_para_squadleader_akms_80_camo01","len_liv_para_rifleman_akms_80_camo01","len_liv_para_medic_savz26_80_camo01","len_liv_para_marksman_svd_80_camo01","len_liv_para_machinegunner_pk_80_camo01","len_liv_para_machinegunner_lmgrpk_80_camo01","len_liv_para_antitank_akms_rpg7_80_camo01","len_liv_para_antitank_assistant_akms_rpg7_80_camo01"];
-    _Unit_Pool_V = ["len_liv_army_uaz_spg9_oli","len_liv_army_brdm2_cam","len_liv_army_btr60pa_cam","len_liv_army_ot64a_cam"];
-    _Unit_Pool_T = ["len_liv_army_zsu234v1_cam","len_liv_army_bmp1sp2_cam","len_liv_army_pt76b_cam","len_liv_army_t55a_cam","len_liv_army_t72bv_oli"];
+    _Unit_Pool_S = [];
+    _Unit_Pool_V = [];
+    _Unit_Pool_T = [];
     _Unit_Pool_A = [];
   };
   
@@ -511,9 +501,9 @@ switch (_TypNumber) do
 // LIVONIAN ARMY WINTER (OPFOR)
 	case 37:
 	{
-    _Unit_Pool_S = ["len_liv_army_crew_savz26_80_blk", "len_liv_af_pilot_80_01","len_liv_army_squadleader_akm_80_winter","len_liv_army_rifleman_akm_80_winter","len_liv_army_medic_akm_80_winter","len_liv_army_machinegunner_pk_80_winter","len_liv_army_machinegunner_lmgrpk_80_winter","len_liv_army_antitank_akm_rpg7_80_winter","len_liv_army_antitank_assistant_akm_rpg7_80_winter"];
-    _Unit_Pool_V = ["len_liv_army_uaz_spg9_oli","len_liv_army_brdm2_cam","len_liv_army_btr60pa_cam","len_liv_army_ot64a_cam"];
-    _Unit_Pool_T = ["len_liv_army_zsu234v1_cam","len_liv_army_bmp1sp2_cam","len_liv_army_pt76b_cam","len_liv_army_t55a_cam","len_liv_army_t72bv_oli"];
+    _Unit_Pool_S = [];
+    _Unit_Pool_V = [];
+    _Unit_Pool_T = [];
     _Unit_Pool_A = [];
   };
   
@@ -522,9 +512,9 @@ switch (_TypNumber) do
 // LIVONIAN ARMY EARLY (BLACK CAMO) (OPFOR)
 	case 38:
 	{
-    _Unit_Pool_S = ["len_liv_army_crew_savz26_80_blk", "len_liv_af_pilot_80_01","len_liv_wm_squadleader_ppsh_80_blk_early","len_liv_wm_rifleman_m9130_80_blk_early","len_liv_wm_medic_sks_80_blk_late","len_liv_wm_marksman_m9130_80_blk_late","len_liv_wm_machinegunner_mg42_80_blk_early","len_liv_wm_machinegunner_lmgrpk_80_blk_late","len_liv_wm_antitank_sks_rpg7_80_blk_late","len_liv_wm_antitank_assistant_sks_rpg7_80_blk_late"];
-    _Unit_Pool_V = ["len_liv_army_uaz_spg9_oli","len_liv_army_brdm2_cam","len_liv_army_btr60pa_cam","len_liv_army_ot64a_cam"];
-    _Unit_Pool_T = ["len_liv_army_zsu234v1_cam","len_liv_army_bmp1sp2_cam","len_liv_army_pt76b_cam","len_liv_army_t55a_cam","len_liv_army_t72bv_oli"];
+    _Unit_Pool_S = [];
+    _Unit_Pool_V = [];
+    _Unit_Pool_T = [];
     _Unit_Pool_A = [];
   };
   
@@ -680,10 +670,10 @@ switch (_TypNumber) do
 // ALTIS ARMED FORCES CAMO01 (INDFOR)
   case 52:
   {
-    _Unit_Pool_S = ["ws_aaf_infantry_crew_tank","ws_aaf_aviation_pilot_heli","ws_aaf_infantry_sl","ws_aaf_infantry_lat","ws_aaf_infantry_dm","ws_aaf_infantry_mg","ws_aaf_infantry_med","ws_aaf_infantry_ar","ws_aaf_infantry_AT","ws_aaf_infantry_AA"];
-    _Unit_Pool_V = ["ws_aaf_car_iltis_milan","ws_aaf_apc_m113a1","ws_aaf_apc_m113a1_milan"];
-    _Unit_Pool_T = ["ws_aaf_apc_bmp1","ws_aaf_tank_leo1a3"];
-    _Unit_Pool_A = ["ws_aaf_air_uh1h_gunship"];
+    _Unit_Pool_S = [];
+    _Unit_Pool_V = [];
+    _Unit_Pool_T = [];
+    _Unit_Pool_A = [];
   }; 
   
 //-------------------------------------------------------------------------------------------------
@@ -691,10 +681,10 @@ switch (_TypNumber) do
 // ALTIS ARMED FORCES CAMO02 (INDFOR)
   case 53:
   {
-    _Unit_Pool_S = ["ws_aaf_infantry_crew_tank","ws_aaf_aviation_pilot_heli","ws_aaf_conscript_officer","ws_aaf_conscript_lat","ws_aaf_conscript_dm","ws_aaf_conscript_mg","ws_aaf_conscript_med","ws_aaf_conscript_ar","ws_aaf_conscript_AT","ws_aaf_conscript_AA"];
-    _Unit_Pool_V = ["ws_aaf_car_iltis_milan","ws_aaf_apc_m113a1","ws_aaf_apc_m113a1_milan"];
-    _Unit_Pool_T = ["ws_aaf_apc_bmp1","ws_aaf_tank_leo1a3"];
-    _Unit_Pool_A = ["ws_aaf_air_uh1h_gunship"];
+    _Unit_Pool_S = [];
+    _Unit_Pool_V = [];
+    _Unit_Pool_T = [];
+    _Unit_Pool_A = [];
   }; 
   
 //-------------------------------------------------------------------------------------------------
