@@ -2219,7 +2219,7 @@ _DMriflemag = "PSZ_762x51_Bor_10";
 
 // Light AT
 _RAT = "PSZ_RPG76_Base";
-//_RATmag = "NLAW_F";
+_RATmag = "PSZ_PG76_HEAT";
 
 // Medium anti tank launcher
 _MAT = "rhs_weap_rpg7";
@@ -2519,7 +2519,7 @@ _DMriflemag = "PSZ_762x51_Bor_10";
 
 // Light AT
 _RAT = "PSZ_RPG76_Base";
-//_RATmag = "NLAW_F";
+_RATmag = "PSZ_PG76_HEAT";
 
 // Medium anti tank launcher
 _MAT = "rhs_weap_rpg7";
