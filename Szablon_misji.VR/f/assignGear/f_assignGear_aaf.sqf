@@ -344,13 +344,13 @@ _hg_attachments= [];
 
 // Basic Weapon (used by most of basic units, e.g Rifleman)
 _rifle = "arifle_Katiba_F";
-_riflemag = "30Rnd_62x39_caseless_green";
-_riflemag_tr = "30Rnd_62x39_caseless_green_mag_Tracer";
+_riflemag = "30Rnd_65x39_caseless_green";
+_riflemag_tr = "30Rnd_65x39_caseless_green_mag_Tracer";
 
 // Light/Short version (used by specialiesed units e.g Medic)
 _carbine = "arifle_Katiba_C_F";
-_carbinemag = "30Rnd_62x39_caseless_green";
-_carbinemag_tr = "30Rnd_62x39_caseless_green_mag_Tracer";
+_carbinemag = "30Rnd_65x39_caseless_green";
+_carbinemag_tr = "30Rnd_65x39_caseless_green_mag_Tracer";
 
 // SMG (dla przykładowo: Pilot, Co-pilot,Dowódca pojazdu)
 _smg = "rhsusf_weap_MP7A2";
@@ -359,8 +359,8 @@ _smgmag_tr = "rhsusf_mag_40Rnd_46x30_FMJ";
 
 // GL (used by FTL,TL,CO,PLT and Grenadier)
 _glrifle = "arifle_Katiba_GL_F";
-_glriflemag = "30Rnd_62x39_caseless_green";
-_glriflemag_tr = "30Rnd_62x39_caseless_green_mag_Tracer";
+_glriflemag = "30Rnd_65x39_caseless_green";
+_glriflemag_tr = "30Rnd_65x39_caseless_green_mag_Tracer";
 _glmag = "1Rnd_HE_Grenade_shell";
 
 // Pistol 
