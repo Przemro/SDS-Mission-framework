@@ -318,10 +318,10 @@ _bipod2 = "bipod_02_F_blk";				// Bipod for additional weapon (for SF etc.)
 _loadout_night_day = f_param_night_day_wyp;
 if (_loadout_night_day == 0) then 
 {								// Każda jednostka otrzyma ten zestaw dodatków
-	_attachments = []; 		//NOC
+	_attachments = [_attach1,_scope1]; 		//NOC
 } else 
 {
-	_attachments = []; 		//DZIEŃ 			
+	_attachments = [_attach3,_scope1]; 		//DZIEŃ 			
 };
 
 /*
