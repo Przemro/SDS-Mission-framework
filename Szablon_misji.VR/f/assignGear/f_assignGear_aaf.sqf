@@ -525,7 +525,7 @@ _JPilotGlasses = [];
 
 // Crew
 _crewUniform = ["U_I_CombatUniform_shortsleeve"];
-_crewHelmet = ["rhsusf_cvc_green_ess","rhsusf_cvc_green_alt_helmet];
+_crewHelmet = ["rhsusf_cvc_green_ess","rhsusf_cvc_green_alt_helmet"];
 _crewRig = ["V_Chestrig_rgr"];
 _crewGlasses = [];
 
