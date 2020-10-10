@@ -62,11 +62,11 @@ switch (_CampTyp) do
 	
 	case 1:   // BLUFOR - Obóz z namiotem i działem PLOT
 	{
-		_campBasic     = ["Flag_NATO_F",["Land_Fire_burning",8,5,0],["CampEAST_EP1",5,0,180],["Logic",10,15,0],0];
+		_campBasic     = ["Flag_NATO_F",["Land_Fire_burning",8,5,0],["USMC_WarfareBUAVterminal",5,0,180],["Logic",10,15,0],0];
 		_campAmmo      = [];
-		_campStatic    = [["RHS_Stinger_AA_pod_D",0,12,0,"usm_soldier_90s_w_h_rto"]];
+		_campStatic    = [["UK3CB_BAF_Static_L111A1_Deployed_High_DPMW_RM",0,12,0,"UK3CB_BAF_Rifleman_DPMW_RM"]];
 		_campAddUnit   = [];
-		_campUserObj   = [["Land_Antenna",5,-5,45]];
+		_campUserObj   = [["Land_PortableLight_double_F",5,-5,45]];
 		_campRandomObj = [];
 		_campWall      = [];
 		_campObjInit   = [[],[],[],[],[],[],[]];

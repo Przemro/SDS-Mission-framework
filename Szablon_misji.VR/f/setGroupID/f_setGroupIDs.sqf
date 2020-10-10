@@ -13,21 +13,31 @@ _groups = [
 
 ["GrpNATO_CO","CO-HQ"],
 ["GrpNATO_DC","1Plt-HQ"],
+["GrpNATO_DC_1","2Plt-HQ"],
 
 ["GrpNATO_ASL","ASL"],
 ["GrpNATO_A1","A1"],
 ["GrpNATO_A2","A2 "],
-["GrpNATO_A3","Alpha"],
 
 ["GrpNATO_BSL","BSL"],
 ["GrpNATO_B1","B1"],
 ["GrpNATO_B2","B2"],
-["GrpNATO_B3","Bravo"],
 
 ["GrpNATO_CSL","CSL"],
 ["GrpNATO_C1","C1"],
 ["GrpNATO_C2","C2"],
-["GrpNATO_C3","Charlie"],
+
+["GrpNATO_DSL","DSL"],
+["GrpNATO_D","Delta"],
+["GrpNATO_IFVD","DV"],
+
+["GrpNATO_ESL","BSL"],
+["GrpNATO_E","Echo"],
+["GrpNATO_IFVE","EV"],
+
+["GrpNATO_FSL","FSL"],
+["GrpNATO_F","Foxtrot"],
+["GrpNATO_IFVF","FV"],
 
 ["GrpNATO_MMG1","MMG"],
 ["GrpNATO_HMG1","HMG"],
@@ -41,21 +51,12 @@ _groups = [
 
 ["GrpNATO_DT1","SF1"],
 ["GrpNATO_DT2","SF2"],
-["GrpNATO_DT3","SF3"],
-["GrpNATO_DT4","SF4"],
-["GrpNATO_DT5","SF5"],
 
 ["GrpNATO_ENG1","ENG"],
 
-["GrpNATO_IFV1","AV"],
-["GrpNATO_IFV2","BV"],
-["GrpNATO_IFV3","CV"],
-
-["GrpNATO_IFV4","Centaur 1"],
-["GrpNATO_IFV5","Centaur 2"],
-["GrpNATO_IFV6","Centaur 3"],
-["GrpNATO_IFV7","Centaur 4"],
-["GrpNATO_IFV8","Centaur 5"],
+["GrpNATO_IFV1","Centaur 1-1"],
+["GrpNATO_IFV2","Centaur 1-2"],
+["GrpNATO_IFV3","Centaur 1-3"],
 
 ["GrpNATO_TNK1","Chimera 1-1"],
 ["GrpNATO_TNK2","Chimera 1-2"],
@@ -70,8 +71,8 @@ _groups = [
 ["GrpNATO_TH7","Harpie 7"],
 ["GrpNATO_TH8","Harpie 8"],
 
-["GrpNATO_AH1","Phonix 1"],
-["GrpNATO_AH2","Phonix 2"],
+["GrpNATO_AH1","Phoenix 1"],
+["GrpNATO_AH2","Phoenix 2"],
 
 // ====================================================================================
 
